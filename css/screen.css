@@ -68,7 +68,10 @@ h1 {
     margin: 0 0 24px;
     font-family: "Playfair Display", serif;
 }
+*+h2 {
+    margin: 48px;
 
+}
 
 h1,
 h2 ,
