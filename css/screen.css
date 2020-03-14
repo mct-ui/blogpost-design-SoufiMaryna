@@ -243,4 +243,32 @@ a:focus {
     h3 {
         page-break-after: avoid;
     }
+    /*components:Autor*/
+    .c-autor {
+        display: flex;
+        align-items: center;
+    }
+    .c-autor__image {
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+
+    }
+    .c-autor__name,
+    .c-autor__meta {
+        margin-bottom: 0;
+    }
+    .c-autor__meta {
+        font-size: 14px;
+        font-family: "Inter", Helvetica, arial, sans-serif;
+        line-height: 24px;
+    }
+    .c-autor__name {
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+        margin-right: 16px;
+    }
+
+    
 }
